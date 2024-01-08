@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    background-color: lightgrey;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    background-color: steelblue;
+}
+
+.word-VK{
+    margin-left: 200px;
+    font-weight: bold;
+    font-size: 23px;
+    color: white;
+}
+
+.search{
+    margin-left: 150px;
+    background-color: darkblue;
+    border-radius: 20px;
+    border: none;
+    height: 30px;
+}
+
+.main{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.first{
+    color: darkblue;
+    margin-left: 190px;
+}
+
+.second{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+}
+
+.main-photo{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.fimage{
+    margin: 5px;
+}
+.edit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: lightgrey;
+    color: darkblue;
+}
+
+.Friends{
+    padding-left: 10px;
+    color: darkblue;
+    background-color: white;
+}
+
+.Friends img{
+    border: none;
+    border-radius: 50px;
+}
+
+.first-row-friends{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.second-row-friends{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.third{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    width: 1000px;
+    height: 800px;
+    background-color: lightgrey;
+}
+
+.bio{
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 395px;
+}
+
+.name-row{
+    display: flex;
+    flex-direction: row;
+
+    border-bottom: 1px solid grey;
+}
+
+.name1{
+    margin-right: auto ;
+}
+
+.isonline{
+    color: gray;
+    margin-left: auto;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid grey;
+}
+
+.about{
+    width: 35%;
+}
+
+.answer{
+    width: 65%;
+}
+
+.all-about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card{
+    font-size: 22px;
+    color: darkblue;
+}
+
+
+.card h5{
+    font-size: 15px;
+    color: black;
+}
+
+.Photos{
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.pics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Posts{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 200px;
+    padding: 10px;
+}
+
+
+.who{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.who img{
+    border-radius: 20px;
+}
+
+.name2{
+    margin-left: 15px;
+}
+
+
+

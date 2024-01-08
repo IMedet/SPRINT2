@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    background-color: lightgrey;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    background-color: steelblue;
+}
+
+.word-VK{
+    margin-left: 200px;
+    font-weight: bold;
+    font-size: 23px;
+    color: white;
+}
+
+.search{
+    margin-left: 150px;
+    background-color: darkblue;
+    border-radius: 20px;
+    border: none;
+    height: 30px;
+}
+
+.main{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.first{
+    color: darkblue;
+    margin-left: 190px;
+}
+
+.second{
+    background-color: white;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.header{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.point{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.check{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 150px;
+    height: 60px;
+    background-color:steelblue ;
+    margin-left: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.search2{
+    width: 100%;
+}
+
+.search2 input{
+    width: 99%;
+}
+
+.card{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+}
+
+.card h4{
+    color: steelblue;
+}
+
+.card img{
+    border-radius: 20px;
+}
+
+.its-name{
+    margin-left: 15px;
+}
+
+.points{
+    margin-right: 10px;
+    margin-left: auto;
+    color: steelblue;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.third{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    margin-left: 40px;
+    width: 20%;
+}
+
+.frinds-parts{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 99%;
+    height: 250px;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 40px;
+}
+
+.parts{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+    margin-bottom: 20px;
+}
+
+.might-friends{
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.word-friends{
+    font-weight: bold;
+}
+
+.might-friend{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.might-pic img{
+    border-radius: 20px;
+}
+
+.might-name{
+    margin-left: 10px;
+
+}
+
+.might-name h4{
+    color: steelblue;
+}
